@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 class RulesCommon {
   constructor() {
-    this.rulesActive = true;
+    this.rulesActive = false;
     this.contacts = this.getContactsFromFile();
   }
 
