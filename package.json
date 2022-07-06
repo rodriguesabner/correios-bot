@@ -1,16 +1,17 @@
 {
-  "name": "bot-cardapio",
-  "version": "1.0.1",
-  "description": "Bot",
+  "name": "correios-bot",
   "type": "module",
+  "version": "1.0.0",
+  "description": "Este projeto foi feito para buscar as informações da encomenda (Código de Rastreio) através do Whatsapp",
+  "author": {
+    "name": "Abner Rodrigues",
+    "email": "abnerodrigs@gmail.com",
+    "url": "https://www.linkedin.com/in/rodriguesabner/"
+  },
   "main": "./src/index.js",
   "scripts": {
-    "start": "node ./src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@wppconnect-team/wppconnect": "^1.14.4",
     "axios": "^0.27.2",
